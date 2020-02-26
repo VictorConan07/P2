@@ -92,6 +92,7 @@ main
     grid-row-end: 2;*/
     font-size: 130%;
     margin-left: 70px;
+    color: #1e1e2f;
 }
 h4
 {   
@@ -132,7 +133,7 @@ article
 }
 .date_lieu
 {
-    width: 400px;
+    width: 45%;
     margin: 0;
     flex-direction: column;
 }
@@ -196,7 +197,7 @@ h4 + p
 
 h2  span
 {
-    border-bottom: 5px black solid;
+    border-bottom: 5px #1e1e2f solid;
 }
 h5
 {
@@ -265,5 +266,9 @@ h1 span
     figure
     {
         margin-top: 0px;
+    }
+    .div_article
+    {
+        justify-content: right;
     }
 }

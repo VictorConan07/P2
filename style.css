@@ -41,7 +41,7 @@ img
 
 h2
 {
-    color: #6E4A46;
+    color: #F2B53A;
     text-align: left;
     margin-bottom: 70px;
 
@@ -102,7 +102,7 @@ h4
 }
 .fa-dot-circle
 {
-    color: #6E4A46;
+    color: #F2B53A;
     margin-right: 10px;
 }
 figure
@@ -240,7 +240,6 @@ h6
 }
 h1 span
 {
-   text-shadow: 4px 4px 4px #3984F1;
     color: #3984F1;
 }
 
@@ -250,8 +249,6 @@ h1 span
 @media screen and (min-width: 0px) and (max-width: 700px) {
     body
     {
-        grid-template-columns: 1fr;
-        width: auto;
         display: block;
     }
     main
@@ -260,8 +257,8 @@ h1 span
     }
     .fa-basketball-ball
     {
-            margin: 15px;
-            margin-left: 15%;
+        margin: 15px;
+        margin-left: 15%;
     }
     figure
     {

@@ -84,7 +84,7 @@ header
     font-size: 140%;
 }
 
-main
+.main
 {
     /*grid-column-start: 2;
     grid-column-end: 3;
@@ -99,6 +99,7 @@ h4
     display:flex;
     background-color: white;
     align-self: : center;
+    padding: 7px;
 }
 .fa-dot-circle
 {
@@ -149,14 +150,11 @@ article
     list-style-type: none;
 }
 
-li
+.aside li
 {
-    display: flex;
+    list-style: none none;
 }
-h4 + p
-{
-    margin-left: 40px;
-}
+
 .aside_loisirs + p
 {
     display: block;
@@ -232,7 +230,6 @@ h6
 .recommandations_IUT
 {
     width: 30%;
-    padding-right: 20%;
 }
 .aside p
 {
@@ -242,23 +239,48 @@ h1 span
 {
     color: #3984F1;
 }
-
-
+.aside_loisirs ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+.aside p
+{
+    margin-left: 40px;
+}
 
 
 @media screen and (min-width: 0px) and (max-width: 700px) {
     body
     {
         display: block;
+        padding-left: 2%;
+        padding-right: 2%
     }
-    main
+    .main
     {
         margin-left: 0px; 
     }
     .fa-basketball-ball
     {
-        margin: 15px;
-        margin-left: 15%;
+        margin: 5%;
+        margin-left: 10%;
+    }
+    .fa-spotify
+    {
+    margin: 5%;
+    }
+    .fa-youtube
+    {
+    margin: 5%;
+    }
+
+    .fa-mouse
+    {
+    margin: 5%;
     }
     figure
     {
@@ -267,5 +289,29 @@ h1 span
     .div_article
     {
         justify-content: right;
+        width: 100%;
+    }
+    .aside_propos
+    {
+    margin-bottom: 20px;
+    }
+    .aside
+    {
+        font-size: 130%
+    }
+    .main article
+    {
+        display:block;
+        
+    }
+    .recommandations_articles
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .recommandations_IUT
+    {
+        width: 100%;
+        margin-bottom: 20px;
     }
 }

@@ -97,7 +97,7 @@ header
 h4
 {   
     display:flex;
-    background-color: white;
+    background-color: #8f9484;
     align-self: : center;
     padding: 7px;
 }
@@ -257,12 +257,13 @@ h1 span
     body
     {
         display: block;
-        padding-left: 2%;
-        padding-right: 2%
+        
     }
     .main
     {
-        margin-left: 0px; 
+        margin-left: 0px;
+        padding-left: 2%;
+        padding-right: 2% 
     }
     .fa-basketball-ball
     {
@@ -271,29 +272,29 @@ h1 span
     }
     .fa-spotify
     {
-    margin: 5%;
+         margin: 5%;
     }
     .fa-youtube
     {
-    margin: 5%;
+         margin: 5%;
     }
 
     .fa-mouse
     {
-    margin: 5%;
+        margin: 5%;
     }
     figure
     {
-        margin-top: 0px;
+         margin-top: 0px;
     }
     .div_article
     {
-        justify-content: right;
+      justify-content: right;
         width: 100%;
     }
     .aside_propos
     {
-    margin-bottom: 20px;
+        margin-bottom: 20px;
     }
     .aside
     {
@@ -313,5 +314,13 @@ h1 span
     {
         width: 100%;
         margin-bottom: 20px;
+    }
+    .date_lieu
+    {
+        width: 100%
+    }
+    br
+    {
+        display: none;
     }
 }

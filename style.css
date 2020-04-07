@@ -77,7 +77,6 @@ h4
 {   
     display:flex;
     background-color: #8f9484;
-    align-self: left;
     padding: 7px;
 }
 .fa-dot-circle
@@ -193,7 +192,7 @@ h6
 
 .recommandations_IUT
 {
-    width: 30%;
+    width: 40%;
 }
 .aside p
 {
@@ -217,7 +216,7 @@ h1 span
 }
 
 
-@media screen and (min-width: 0px) and (max-width: 700px) {
+@media screen and (min-width: 150px) and (max-width: 1000px) {
     body
     {
         display: block;
@@ -232,12 +231,12 @@ h1 span
     
     figure
     {
-         margin-top: 0px;
-    }
-    .div_article
-    {
-        justify-content: right;
-        width: 100%;
+       margin-top: 0px;
+   }
+   .div_article
+   {
+    justify-content: right;
+    width: 100%;
     }
     .aside_propos
     {

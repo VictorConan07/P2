@@ -70,7 +70,7 @@ figure
 
 img
 {
-    border-radius: 50%
+    border-radius: 50%;
     border: 1px solid blue;
     box-shadow: 2px 2px 2px black;
 }
